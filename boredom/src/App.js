@@ -1,5 +1,6 @@
 import React from 'react';
-//import Activities from './src/Components/Activities'
+//import Activities from './src/Components/Activities.js'
+//import Activity from './Components/Activity.js'
 
 class App extends React.Component {
   constructor(props) {
@@ -41,17 +42,24 @@ handleSubmit(event) {
       <div>
       <header>
       <h1>Home</h1>
-      // Register & Login
-      // Search
+
       </header>
       <body>
+      <div className = 'topbar-row'>
       <h1>The Board of Boredom</h1>
-      <h2>You should: {this.props.activity}</h2>
-      <button>Shuffle</button>
+      <h2>You should: {this.state.activity}</h2>
+      <h2>Type: {this.state.type}</h2>
+      <h2>Number of people required: {this.state.participants}</h2>
+      <button>Generate</button>
+      </div>
       <div class='side-nav'>
+
       </div>
       </body>
       <footer>
+      <div class='socials'>
+
+      </div>
       </footer>
       </div>
     )
