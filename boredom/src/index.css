@@ -1,14 +1,14 @@
 /* ===========
-    Variables
+  Variables
 ============== */
 :root {
-  /* Fonts */
+/* Fonts */
 --font: 'Times';
 /* Colors */
 --light-blue: #ADD8E6;
 }
 /* ===========
-    General
+  General
 ============== */
 body {
   font-family: ;
@@ -16,17 +16,40 @@ body {
   color: ;
   background: #ADD8E6;
 }
-.topbar-row h1 {
+.table {
   text-align: center;
+  display: grid;
 }
-.topbar-row h2 {
+.table h1 {
   text-align: center;
+  font-family: Verdana;
 }
-.topbar-row button {
-  justify-content: center;
+.table h2 {
+  text-align: justify;
+  font-family: Verdana;
 }
 /* ===========
-    Header
+  Side Bar
+============== */
+.side-nav h3 {
+  font-family: Verdana;
+}
+.side-nav ul {
+  list-style: none;
+  font-family: Verdana;
+}
+/* ===========
+  Header
 ============== */
 header {
+  font-family: ;
+}
+/* ===========
+  Footer
+============== */
+footer {
+
+}
+.socials {
+
 }
