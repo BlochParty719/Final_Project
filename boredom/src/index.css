@@ -16,9 +16,11 @@ body {
   color: ;
   background: #ADD8E6;
 }
-.table {
+.form {
   text-align: center;
   display: grid;
+  justify-content: center;
+
 }
 .table h1 {
   text-align: center;
@@ -27,6 +29,9 @@ body {
 .table h2 {
   text-align: justify;
   font-family: Verdana;
+}
+.container {
+ /* Move a little to the left */
 }
 /* ===========
   Side Bar

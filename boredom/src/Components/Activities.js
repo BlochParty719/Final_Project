@@ -1,19 +1,17 @@
-import React from 'react'
-import Activity from './Activity.js'
+import React, {Component} from 'react';
 
-class Activities extends React.Component {
+class Activities extends Component {
   render () {
     return (
-      <div className='Activities'>
-      <table>
+      <div>
       <h1>The Board of Boredom</h1>
-      <h2>You should: {this.state.activity}</h2>
-      <h2>Type: {this.state.type}</h2>
-      <h2>Number of people required: {this.state.participants}</h2>
-      <button>Random</button>
-      </table>
+      <h2>You should: {this.props.activity}</h2>
+      <h2>Type: {this.props.activity.type}</h2>
+      <h2>Number of people required: {this.props.participants}</h2>
+      <button onClick={this.getActivity}>Random</button>
       </div>
     )
   }
 }
+
 export default Activities
