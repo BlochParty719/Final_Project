@@ -16,23 +16,16 @@ body {
   color: ;
   background: #ADD8E6;
 }
-.form {
-  text-align: center;
-  display: grid;
-  justify-content: center;
-
-}
-.table h1 {
-  text-align: center;
-  font-family: Verdana;
-}
-.table h2 {
-  text-align: justify;
-  font-family: Verdana;
-}
 .container {
- /* Move a little to the left */
+  text-align: justify;
 }
+.container h1 {
+  text-align: center;
+}
+.info{
+text-align: center;
+}
+
 /* ===========
   Side Bar
 ============== */
