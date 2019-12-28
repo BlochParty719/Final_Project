@@ -1,17 +1,8 @@
 /* ===========
-  Variables
-============== */
-:root {
-/* Fonts */
---font: 'Times';
-/* Colors */
---light-blue: #ADD8E6;
-}
-/* ===========
   General
 ============== */
 body {
-  font-family: ;
+  font-family: Verdana;
   font-size: ;
   color: ;
   background: #ADD8E6;
@@ -23,31 +14,24 @@ body {
   text-align: center;
 }
 .info{
-text-align: center;
-}
+  text-align: center;
 
-/* ===========
-  Side Bar
-============== */
-.side-nav h3 {
-  font-family: Verdana;
-}
-.side-nav ul {
-  list-style: none;
-  font-family: Verdana;
 }
 /* ===========
   Header
 ============== */
 header {
-  font-family: ;
+  font-family: Verdana;
+}
+/* ===========
+  Side Bar
+============== */
+.side-nav {
+  font-family: Verdana;
 }
 /* ===========
   Footer
 ============== */
 footer {
-
-}
-.socials {
-
+text-align: center;
 }

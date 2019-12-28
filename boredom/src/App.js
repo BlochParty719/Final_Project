@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 
 class App extends React.Component {
   constructor(props) {
@@ -15,7 +17,7 @@ class App extends React.Component {
   getActivity(){
     fetch('http://www.boredapi.com/api/activity')
     .then(response => {
-    return response.json()
+      return response.json()
     }).then(json => this.setState({
       activity: json,
       activity: json.activity,
@@ -23,15 +25,15 @@ class App extends React.Component {
       participants: json.participants
     }),
     error => console.log(error)
-    )
-  }
+  )
+}
 
 render () {
   return(
     <>
     <header>
-      <h1>Home</h1>
-      </header>
+    <h1>Home</h1>
+    </header>
     <body>
     <div className='container'>
       <h1>The Board of Boredom</h1>
@@ -39,29 +41,29 @@ render () {
       <h2> You Should: {this.state.activity}</h2>
       <h2>Type: {this.state.type}</h2>
       <h2>Number of people required: {this.state.participants}</h2>
-    <button onClick={this.getActivity} type='button'>Random</button>
+      <button onClick={this.getActivity} type='button'>Random</button>
     </div>
     </div>
     <div class='side-nav'>
       <h3>Categories</h3>
-        <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        </ul>
+        <p>Charity</p>
+        <p>Cooking</p>
+        <p>Education</p>
+        <p>Music</p>
+        <p>Recreational</p>
+        <p>Relaxation</p>
+        <p>Social</p>
     </div>
     </body>
     <footer>
-      <div class='socials'>
+    <div class='socials'>
+      <SocialIcon url="https://twitter.com/Daniel_Bloch95"/>
+      <SocialIcon url="https://github.com/BlochParty719"/>
 
-      </div>
+    </div>
     </footer>
-      </>
-     )
-   }
- }
+    </>
+  )
+}
+}
 export default App
