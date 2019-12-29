@@ -59,7 +59,7 @@ render () {
     <div class='socials'>
       <SocialIcon url="https://twitter.com/Daniel_Bloch95"/>
       <SocialIcon url="https://github.com/BlochParty719"/>
-
+      <SocialIcon url="https://linkedin.com/in/daniel-bloch-Da3a79119"/>
     </div>
     </footer>
     </>
