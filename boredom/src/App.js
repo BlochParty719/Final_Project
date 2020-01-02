@@ -63,7 +63,7 @@ render () {
     <br>
     </br>
     <div>
-    <h2>Need Some Tips for the Holiday Season?</h2>
+    <h2>Need Some Things to do this Holiday Season?</h2>
     <br>
     </br>
       <div class='grid'>
@@ -95,7 +95,7 @@ render () {
     </div>
     </footer>
     </>
-  )
-}
+    )
+  }
 }
 export default App
