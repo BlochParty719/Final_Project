@@ -15,7 +15,17 @@ body {
 }
 .info{
   text-align: center;
-
+  font-size: 13px;
+}
+.grid, h2{
+text-align: center;
+}
+.grid a {
+  color: black;
+  text-decoration: none;
+  float: left;
+  justify-content: space-between;
+  width: 40%;
 }
 /* ===========
   Header
@@ -23,11 +33,19 @@ body {
 header {
   font-family: Verdana;
 }
+header a {
+  color: black;
+  text-decoration: none;
+}
 /* ===========
   Side Bar
 ============== */
 .side-nav {
   font-family: Verdana;
+}
+.side-nav a {
+  color: black;
+  text-decoration: none;
 }
 /* ===========
   Footer

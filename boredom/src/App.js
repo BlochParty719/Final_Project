@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
+import {BrowserRouter} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class App extends React.Component {
   constructor(props) {
@@ -32,7 +34,9 @@ render () {
   return(
     <>
     <header>
-    <h1>Home</h1>
+    <h1><a href='/'>Home</a></h1>
+    <br>
+    </br>
     </header>
     <body>
     <div className='container'>
@@ -44,19 +48,47 @@ render () {
       <button onClick={this.getActivity} type='button'>Random</button>
     </div>
     </div>
+    <br>
+    </br>
     <div class='side-nav'>
       <h3>Categories</h3>
-        <p>Charity</p>
-        <p>Cooking</p>
-        <p>Education</p>
-        <p>Music</p>
-        <p>Recreational</p>
-        <p>Relaxation</p>
-        <p>Social</p>
+        <p><a href=''>Charity</a></p>
+        <p><a href=''>Cooking</a></p>
+        <p><a href=''>Education</a></p>
+        <p><a href=''>Music</a></p>
+        <p><a href=''>Recreational</a></p>
+        <p><a href=''>Relaxation</a></p>
+        <p><a href=''>Social</a></p>
+    </div>
+    <br>
+    </br>
+    <div>
+    <h2>Need Some Tips for the Holiday Season?</h2>
+    <br>
+    </br>
+      <div class='grid'>
+      <p><a href='https://www.wikihow.com/Wrap-a-Present'>Wrap Presents</a></p>
+      <p><a href='https://www.wikihow.com/Decorate-a-Christmas-Tree'>Decorate the Christmas Tree</a></p>
+      <p><a href='https://www.wikihow.com/Light-a-Chanukah-Menorah'>Light the Menorah</a></p>
+      <p><a href='https://www.wikihow.com/Play-Dreidel'>Play Dreidel</a></p>
+      <p><a href='https://www.wikihow.com/Decorate-a-Gingerbread-House'>Decorate a Gingerbread House</a></p>
+      <br>
+      </br>
+      <br>
+      </br>
+      </div>
     </div>
     </body>
     <footer>
     <div class='socials'>
+    <br>
+    </br>
+    <br>
+    </br>
+    <br>
+    </br>
+    <br>
+    </br>
       <SocialIcon url="https://twitter.com/Daniel_Bloch95"/>
       <SocialIcon url="https://github.com/BlochParty719"/>
       <SocialIcon url="https://linkedin.com/in/daniel-bloch-Da3a79119"/>
